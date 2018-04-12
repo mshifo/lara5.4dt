@@ -16,7 +16,7 @@ class EloquentController extends Controller
      */
     public function index(UsersDataTable $dataTable)
     {
-        return $dataTable->render('buttons.eloquent.index');
+        return $dataTable->render('datatable.index');
     }
 
     /**
@@ -26,6 +26,6 @@ class EloquentController extends Controller
      */
     public function create()
     {
-        return view('buttons.eloquent.create');
+        return view('datatable.create');
     }
 }

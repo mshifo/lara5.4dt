@@ -15,7 +15,7 @@ class UserTransformer extends TransformerAbstract
             'email'      => $user->email,
             'created_at' => $user->created_at,
             'updated_at' => $user->updated_at,
-            'action'     => view('eloquent.tables.users-action', $user->toArray())->render(),
+            'action'     => view('layouts.partials.users-action', $user->toArray())->render(),
         ];
     }
 }

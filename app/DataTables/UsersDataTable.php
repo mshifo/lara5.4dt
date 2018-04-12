@@ -16,7 +16,7 @@ class UsersDataTable extends DataTable
     {
         return $this->datatables
             ->eloquent($this->query())
-            ->addColumn('action', 'eloquent.tables.users-action');
+            ->addColumn('action', 'layouts.partials.users-action');
     }
 
     /**

@@ -62,10 +62,10 @@
         <div class="content">
             <h3>Whoops! Page Not Found!</h3>
             <div class="title m-b-md">
-                Laravel DataTables
+              
             </div>
 
-            @include('layouts.partials.links')
+           
         </div>
     </div>
 @endsection

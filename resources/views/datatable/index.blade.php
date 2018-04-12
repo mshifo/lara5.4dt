@@ -2,7 +2,7 @@
 
 
 @section('side-menu')
-    @include('buttons.partials.menu')
+    @include('datatable.partials.menu')
 @endsection
 
 @section('title')
